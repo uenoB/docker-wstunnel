@@ -1,4 +1,4 @@
-FROM rust:1.83-bookworm AS build
+FROM rust:1.88-bookworm AS build
 WORKDIR /root
 ARG VERSION
 COPY v$VERSION.tar.gz /root
